@@ -1,0 +1,66 @@
+body {
+  font-family: "open sans", "Helvetica", sans-serif;
+  width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  background: url('./ferriss_2.png') repeat;
+}
+
+
+hr {
+  margin: 20px auto;
+}
+
+.filler {
+  text-align: center;
+  border: 1px solid #00AABB;
+  border-radius: 2px;
+  background-color: #EEEEEE;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  background: url('./cream_dust.png') 400px 400px repeat;
+  font-family: "open sans";
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+
+
+
+#header {
+  position: fixed;
+  /*background: #FFFFFF;*/
+  opacity: .9;
+  width: 600px;
+  height: 54px;
+  z-index: 1;
+  display:block;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -13px;
+  padding-top: 45px;
+  padding-bottom: 25px;
+  /*background: url('./ferriss_2.png') repeat;*/
+  
+}
+
+#content {
+  margin-top: 125px;
+  position: relative;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 60px;
+  font-family: "open sans";
+}
+
+.navigation {
+  margin-top: -22px;
+}
+
+div.filler > div.cool-video {
+  margin-top: 25px;
+}
+
